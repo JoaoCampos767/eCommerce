@@ -1,0 +1,30 @@
+.icon-input {
+  position: relative;
+  border-radius: 3px;
+
+  .icon-input-icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 4px;
+    display: flex;
+  }
+
+  input {
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    padding: 4px;
+    padding-left: 30px;
+    color: inherit;
+    font-family: "Open Sans", sans-serif;
+
+    border: 2px solid transparent;
+    transition: 0.2s all;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

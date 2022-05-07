@@ -1,5 +1,7 @@
 // import classNames from "classnames";
 import React from "react";
+import IconInput from "../iconInput/iconInput";
+
 export default class TopBar extends React.Component<any, {}> {
   render() {
     return (
@@ -13,7 +15,9 @@ export default class TopBar extends React.Component<any, {}> {
             <div className="topbar-register">Register</div>
           </div>
           <div className="topbar-center">
-            <div className="topbar-search"></div>
+            <div className="topbar-search">
+              <IconInput value={this.props.value} />
+            </div>
             <div className="topbar-custumer">Consumer Eletronics</div>
           </div>
           <div className="topbar-right">
