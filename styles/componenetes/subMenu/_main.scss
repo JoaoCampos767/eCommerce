@@ -1,0 +1,158 @@
+.submenu {
+  background-color: #f9f9fa;
+  height: 70px;
+  width: 100%;
+  padding-left: 85px;
+  padding-right: 100px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .submenu-clothing-shoes {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 30px;
+    max-width: 110px;
+    min-width: 110px;
+    text-align: center;
+
+    .submenu-icon-clothing {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 132px;
+      display: flex;
+    }
+  }
+
+  .submenu-musics {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 30px;
+    max-width: 110px;
+    min-width: 110px;
+    text-align: center;
+  }
+
+  .submenu-sports {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 30px;
+    max-width: 110px;
+    min-width: 110px;
+    text-align: center;
+  }
+
+  .submenu-pets {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 30px;
+    max-width: 110px;
+    min-width: 110px;
+    text-align: center;
+  }
+
+  .submenu-acessories {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 30px;
+    max-width: 110px;
+    min-width: 110px;
+    text-align: center;
+  }
+
+  .submenu-equipment {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 30px;
+    max-width: 110px;
+    min-width: 110px;
+    text-align: center;
+  }
+
+  .submenu-garden {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 30px;
+    max-width: 110px;
+    min-width: 110px;
+    text-align: center;
+  }
+
+  .submenu-electrical {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 30px;
+    max-width: 110px;
+    min-width: 110px;
+    text-align: center;
+  }
+
+  .submenu-toys {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 30px;
+    max-width: 110px;
+    min-width: 110px;
+    text-align: center;
+  }
+
+  .submenu-vintage {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 30px;
+    max-width: 110px;
+    min-width: 110px;
+    text-align: center;
+  }
+}
