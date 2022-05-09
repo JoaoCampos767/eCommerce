@@ -6,11 +6,9 @@ export default class TopBar extends React.Component<any, {}> {
   render() {
     return (
       <>
-        <div className="topbar-content">
+        <div className="topbar">
           <div className="topbar-left">
-            <div className="topbar-logo">
-              <i className="fas fa-home"></i>
-            </div>
+            <div className="topbar-logo">Shopka</div>
             <div className="topbar-sell">Sell here</div>
             <div className="topbar-register">Register</div>
           </div>
