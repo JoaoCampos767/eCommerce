@@ -42,6 +42,14 @@
     max-width: 110px;
     min-width: 110px;
     text-align: center;
+
+    .submenu-icon-musics {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 305px;
+      display: flex;
+    }
   }
 
   .submenu-sports {
@@ -56,6 +64,14 @@
     max-width: 110px;
     min-width: 110px;
     text-align: center;
+
+    .submenu-icon-sports {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 483px;
+      display: flex;
+    }
   }
 
   .submenu-pets {
@@ -70,6 +86,14 @@
     max-width: 110px;
     min-width: 110px;
     text-align: center;
+
+    .submenu-icon-pets {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 656px;
+      display: flex;
+    }
   }
 
   .submenu-acessories {
@@ -84,6 +108,14 @@
     max-width: 110px;
     min-width: 110px;
     text-align: center;
+
+    .submenu-icon-acessories {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 833px;
+      display: flex;
+    }
   }
 
   .submenu-equipment {
@@ -98,6 +130,14 @@
     max-width: 110px;
     min-width: 110px;
     text-align: center;
+
+    .submenu-icon-equipment {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 1007px;
+      display: flex;
+    }
   }
 
   .submenu-garden {
@@ -112,6 +152,14 @@
     max-width: 110px;
     min-width: 110px;
     text-align: center;
+
+    .submenu-icon-garden{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 1182px;
+      display: flex;
+    }
   }
 
   .submenu-electrical {
@@ -126,6 +174,14 @@
     max-width: 110px;
     min-width: 110px;
     text-align: center;
+
+    .submenu-icon-eletrical{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 1359px;
+      display: flex;
+    }
   }
 
   .submenu-toys {
@@ -140,6 +196,14 @@
     max-width: 110px;
     min-width: 110px;
     text-align: center;
+
+    .submenu-icon-toys{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 1530px;
+      display: flex;
+    }
   }
 
   .submenu-vintage {
@@ -154,5 +218,13 @@
     max-width: 110px;
     min-width: 110px;
     text-align: center;
+  }
+
+  .submenu-icon-vintage{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1707px;
+    display: flex;
   }
 }
