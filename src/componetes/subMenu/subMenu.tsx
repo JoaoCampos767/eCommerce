@@ -5,63 +5,63 @@ export default class SubMenu extends React.Component<any, {}> {
     return (
       <>
         <div className="submenu">
-          <div className="submenu-clothing-shoes">
+          <div className="submenu-item submenu-clothing-shoes">
             Clothing Shoes
-            <div className="submenu-icon-clothing">
+            <div className="submenu-item-icon submenu-icon-clothing">
               <i className="fas fa-tshirt" />
             </div>
           </div>
-          <div className="submenu-musics">
+          <div className="submenu-item submenu-musics">
             Musics
-            <div className="submenu-icon-musics">
+            <div className="submenu-item-icon submenu-icon-musics">
               <i className="fas fa-music" />
             </div>
           </div>
-          <div className="submenu-sports">
+          <div className="submenu-item submenu-sports">
             Sports
-            <div className="submenu-icon-sports">
+            <div className="submenu-item-icon submenu-icon-sports">
               <i className="fas fa-futbol"></i>
             </div>
           </div>
-          <div className="submenu-pets">
+          <div className="submenu-item submenu-pets">
             Pets
-            <div className="submenu-icon-pets">
+            <div className="submenu-item-icon submenu-icon-pets">
               <i className="fas fa-bone"></i>
             </div>
           </div>
-          <div className="submenu-acessories">
+          <div className="submenu-item submenu-acessories">
             Acessories
-            <div className="submenu-icon-acessories">
+            <div className="submenu-item-icon submenu-icon-acessories">
               <i className="fas fa-cut"></i>
             </div>
           </div>
-          <div className="submenu-equipment">
+          <div className="submenu-item submenu-equipment">
             Equipment
-            <div className="submenu-icon-equipment">
+            <div className="submenu-item-icon submenu-icon-equipment">
               <i className="fas fa-binoculars"></i>
             </div>
           </div>
-          <div className="submenu-garden">
+          <div className="submenu-item submenu-garden">
             Garden
-            <div className="submenu-icon-garden">
+            <div className="submenu-item-icon submenu-icon-garden">
               <i className="fas fa-leaf"></i>
             </div>
           </div>
-          <div className="submenu-electrical">
+          <div className="submenu-item submenu-electrical">
             Electrical
-            <div className="submenu-icon-eletrical">
+            <div className="submenu-item-icon submenu-icon-eletrical">
               <i className="fas fa-bolt"></i>
             </div>
           </div>
-          <div className="submenu-toys">
+          <div className="submenu-item submenu-toys">
             Toys
-            <div className="submenu-icon-toys">
+            <div className="submenu-item-icon submenu-icon-toys">
               <i className="fas fa-gamepad"></i>
             </div>
           </div>
-          <div className="submenu-vintage">
+          <div className="submenu-item submenu-vintage">
             Vintage
-            <div className="submenu-icon-vintage">
+            <div className="submenu-item-icon submenu-icon-vintage">
               <i className="fas fa-compact-disc"></i>
             </div>
           </div>
