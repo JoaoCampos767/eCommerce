@@ -1,69 +1,48 @@
 import React from "react";
+import SubMenuItem from "./subMenuItem";
+
+let a = false;
 
 export default class SubMenu extends React.Component<any, {}> {
+  public state = {
+    activeItem: 0 as any,
+  };
+
   render() {
+    let menus = [
+      { icon: "tshirt", title: "Clothing Shoes" },
+      { icon: "music", title: "Musics" },
+      { icon: "futbol", title: "Sports" },
+      { icon: "bone", title: "Pets" },
+      { icon: "cut", title: "Acessories" },
+      { icon: "binoculars", title: "Equipment" },
+      { icon: "leaf", title: "Garden" },
+      { icon: "bolt", title: "Electrical" },
+      { icon: "gamepad", title: "Toys" },
+      { icon: "compact-disc", title: "Vintage" },
+    ];
+
     return (
       <>
         <div className="submenu">
-          <div className="submenu-item submenu-clothing-shoes">
-            Clothing Shoes
-            <div className="submenu-item-icon submenu-icon-clothing">
-              <i className="fas fa-tshirt" />
-            </div>
-          </div>
-          <div className="submenu-item submenu-musics">
-            Musics
-            <div className="submenu-item-icon submenu-icon-musics">
-              <i className="fas fa-music" />
-            </div>
-          </div>
-          <div className="submenu-item submenu-sports">
-            Sports
-            <div className="submenu-item-icon submenu-icon-sports">
-              <i className="fas fa-futbol"></i>
-            </div>
-          </div>
-          <div className="submenu-item submenu-pets">
-            Pets
-            <div className="submenu-item-icon submenu-icon-pets">
-              <i className="fas fa-bone"></i>
-            </div>
-          </div>
-          <div className="submenu-item submenu-acessories">
-            Acessories
-            <div className="submenu-item-icon submenu-icon-acessories">
-              <i className="fas fa-cut"></i>
-            </div>
-          </div>
-          <div className="submenu-item submenu-equipment">
-            Equipment
-            <div className="submenu-item-icon submenu-icon-equipment">
-              <i className="fas fa-binoculars"></i>
-            </div>
-          </div>
-          <div className="submenu-item submenu-garden">
-            Garden
-            <div className="submenu-item-icon submenu-icon-garden">
-              <i className="fas fa-leaf"></i>
-            </div>
-          </div>
-          <div className="submenu-item submenu-electrical">
-            Electrical
-            <div className="submenu-item-icon submenu-icon-eletrical">
-              <i className="fas fa-bolt"></i>
-            </div>
-          </div>
-          <div className="submenu-item submenu-toys">
-            Toys
-            <div className="submenu-item-icon submenu-icon-toys">
-              <i className="fas fa-gamepad"></i>
-            </div>
-          </div>
-          <div className="submenu-item submenu-vintage">
-            Vintage
-            <div className="submenu-item-icon submenu-icon-vintage">
-              <i className="fas fa-compact-disc"></i>
-            </div>
+          <div className="submenu-list">
+            {menus.map((item, index) => {
+              return (
+                <SubMenuItem
+                  title={item.title}
+                  key={index}
+                  // style={}
+                  onClick={() => {
+                    this.setState({ activeItem: index });
+                    console.log(a === true ? "true" : "false");
+                    a = !a;
+                  }}
+                  active={this.state.activeItem === index}
+                  icon={item.icon}
+                />
+              );
+            })}
+            {/* minWidth: 100 / (menus.length + 2)  + "%" */}
           </div>
         </div>
       </>
