@@ -1,0 +1,25 @@
+.menuproducts {
+  width: 840px;
+  height: 1000px;
+  margin-left: 400px;
+  box-shadow: 0 0 1.5px 1.5px #e6e6e6;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  .menuproducts-filter {
+    width: 110px;
+    height: 35px;
+    background-color: red;
+    border-bottom: 1px solid #e6e6e6;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
