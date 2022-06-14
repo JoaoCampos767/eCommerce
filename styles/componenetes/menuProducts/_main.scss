@@ -11,15 +11,43 @@
   padding-bottom: 10px;
 
   .menuproducts-filter {
-    width: 110px;
+    width: 380px;
     height: 35px;
-    background-color: red;
-    border-bottom: 1px solid #e6e6e6;
-    border-top-left-radius: 0.8rem;
-    border-top-right-radius: 0.8rem;
-    border-bottom-left-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
     display: flex;
     justify-content: space-between;
+
+    .menuproducts-filter-first {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+      .menuproducts-wrapper {
+        width: 120px;
+        height: 35px;
+        background-color: #e6e6e6;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #e6e6e6;
+          color: #000;
+        }
+
+        .menuproducts-item {
+          text-align: center;
+          font-size: 0.8rem;
+          color: rgb(0, 0, 0);
+
+          &:hover {
+            color: #7918e0;
+          }
+        }
+      }
+    }
   }
 }
