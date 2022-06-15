@@ -27,7 +27,6 @@
     .submenu-wrapper {
       padding: 4px 8px;
       padding-bottom: 0;
-      font-size: 0.85rem;
       font-weight: 700;
       padding-top: 10px;
       user-select: none;
@@ -60,6 +59,7 @@
       .submenu-item {
         text-align: center;
         color: gray;
+        font-size: 0.85rem;
 
         &:hover {
           color: #7918e0;
