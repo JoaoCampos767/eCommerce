@@ -12,7 +12,7 @@ export default class MenuProducts extends React.Component<any, {}> {
     let menuFilter = [
       { title: "Useless first" },
       { title: "Condition" },
-      { title: "Delivery options" },
+      { title: "Delivery" },
     ];
 
     return (
@@ -36,6 +36,7 @@ export default class MenuProducts extends React.Component<any, {}> {
               })}
             </div>
           </div>
+          <div className="menuproducts-show"></div>
           <div className="menuproducts-list"></div>
         </div>
       </>

@@ -1,7 +1,7 @@
 .menuproducts {
-  width: 52.7rem;
+  width: 900px;
   height: 1000px;
-  margin-left: 25rem;
+  margin-left: 22rem;
   box-shadow: 0 0 1.5px 1.5px #e6e6e6;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -9,7 +9,6 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  justify-content: space-around;
 
   .menuproducts-filter {
     width: 380px;
@@ -19,12 +18,13 @@
 
     .menuproducts-filter-first {
       display: flex;
-      width: 100%;
+      width: 340px;
+      display: flex;
       justify-content: space-between;
 
       .menuproducts-wrapper {
-        padding: 3px 6px;
-        width: 120px;
+        padding: 3px 3px;
+        width: 105px;
         height: 35px;
         border-width: 1px;
         border-style: solid;
@@ -50,5 +50,14 @@
         }
       }
     }
+  }
+
+  .menuproducts-show {
+    background-color: red;
+    width: 400px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
   }
 }
