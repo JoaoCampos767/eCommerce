@@ -37,7 +37,6 @@ export default class MenuProducts extends React.Component<any, {}> {
             </div>
           </div>
           <div className="menuproducts-show"></div>
-          <div className="menuproducts-list"></div>
         </div>
       </>
     );
