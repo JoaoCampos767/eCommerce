@@ -4,13 +4,13 @@ import Image from "next/image";
 import React from "react";
 import styles from "../styles/Home.module.css";
 import TopBar from "../src/componetes/topBar/topBar";
-import MenuProducts from "../src/componetes/menuProducts/menuProducts";
+import MenuForm from "../src/componetes/menuForm/menuForm";
 
 const Home: NextPage = () => {
   return (
     <div>
       <TopBar />
-      <MenuProducts />
+      <MenuForm />
     </div>
   );
 };

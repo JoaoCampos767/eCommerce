@@ -1,26 +1,26 @@
 import classNames from "classnames";
 import React from "react";
 
-interface ISubMenuItemProps {
+interface IMenuFormShowProps {
   title: string;
   active?: boolean;
   onClick?: React.MouseEventHandler<HTMLDivElement>;
   style?: string;
 }
 
-export default class MenuProductsFilter extends React.Component<
-  ISubMenuItemProps,
+export default class MenuFormShow extends React.Component<
+  IMenuFormShowProps,
   {}
 > {
   render() {
     return (
       <div
-        className={classNames("menuproducts-wrapper", {
+        className={classNames("menuform-wrapper-show", {
           active: this.props.active,
         })}
       >
-        <div onClick={this.props.onClick} className={"menuproducts-item"}>
-          <div style={{}} className="menuproducts-text">
+        <div onClick={this.props.onClick} className={"menuform-item-show"}>
+          <div style={{}} className="menuform-text-show">
             {this.props.title}
           </div>
         </div>

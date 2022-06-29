@@ -1,4 +1,4 @@
-.menuproducts {
+.menuform {
   width: 900px;
   height: 1000px;
   margin-left: 22rem;
@@ -12,19 +12,19 @@
   justify-content: space-between;
   display: flex;
 
-  .menuproducts-filter {
+  .menuform-filter {
     width: 350px;
     height: 35px;
     display: flex;
     justify-content: space-between;
 
-    .menuproducts-filter-first {
+    .menuform-filter-first {
       display: flex;
       width: 340px;
       display: flex;
       justify-content: space-between;
 
-      .menuproducts-wrapper {
+      .menuform-wrapper {
         padding: 3px 3px;
         width: 105px;
         height: 35px;
@@ -42,21 +42,21 @@
         &:hover {
           background-color: #7918e0;
 
-          .menuproducts-item {
+          .menuform-item {
             color: white;
           }
         }
 
-        .menuproducts-item {
+        .menuform-item {
           font-size: 0.8rem;
         }
       }
     }
   }
 
-  .menuproducts-show {
+  .menuform-show {
     background-color: red;
-    width: 400px;
+    width: 500px;
     height: 35px;
     display: flex;
     justify-content: space-between;
