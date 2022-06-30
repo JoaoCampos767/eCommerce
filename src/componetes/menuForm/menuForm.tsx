@@ -12,12 +12,12 @@ export default class MenuForm extends React.Component<any, {}> {
   render() {
     let menuFilter = [
       { title: "Useless first" },
-      { title: "Condition" },
-      { title: "Delivery" },
+      { title: "Auction" },
+      { title: "Buy now" },
     ];
 
     let menuShow = [
-      { title: "Useless first" },
+      { title: "Show all" },
       { title: "Condition" },
       { title: "Delivery" },
     ];
@@ -45,7 +45,7 @@ export default class MenuForm extends React.Component<any, {}> {
           </div>
 
           <div className="menuform-show">
-            <div className="menuform-filter-second">
+            <div className="menuform-show-second">
               {menuShow.map((item, index) => {
                 return (
                   <MenuFormShow

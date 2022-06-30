@@ -19,7 +19,6 @@
     justify-content: space-between;
 
     .menuform-filter-first {
-      display: flex;
       width: 340px;
       display: flex;
       justify-content: space-between;
@@ -55,10 +54,31 @@
   }
 
   .menuform-show {
-    background-color: red;
-    width: 500px;
+    width: 450px;
     height: 35px;
     display: flex;
     justify-content: space-between;
+
+    .menuform-show-second {
+      width: 250px;
+      display: flex;
+      justify-content: space-between;
+
+      .menuform-wrapper-show {
+        padding: 3px 3px;
+        width: 105px;
+        height: 35px;
+        border-width: 1px;
+        border-style: solid;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        user-select: none;
+      }
+    }
   }
 }
